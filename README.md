@@ -42,7 +42,9 @@ The project followed a systematic approach to model development:
 7.  **Feature Importance and Optimization**: Analyzing feature contributions and considering potential model tuning.
 
 ---
-
 ## ⚙️ Model and Algorithm
 
 ### **Algorithm Used: Decision Tree Classifier** 🌳
+
+* The machine learning model chosen for this prediction task is the **Decision Tree Classifier** from `scikit-learn`.
+* The model is trained based on the **entropy** criterion, which measures the impurity or randomness of the data to guide the optimal splitting of nodes in the tree. This helps in building a tree that provides the most information gain at each split, leading to better classification of churn and non-churn customers.
